@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenGL Experiment</title>
+</head>
+<body>
+    <canvas id="myCanvas" height="640">
+        <script>
+            
+            main();
+            function main(){
+                const canvas = document.getElementById("myCanvas");
+                const mygl = canvas.getContext("experimental-webgl");
+                if(mygl == NULL)
+                {
+                    alert("No support for WebGL");
+                    return;
+                }
+                alert("Supports WebGL");
+            }
+        </script>
+</body>
+</html>

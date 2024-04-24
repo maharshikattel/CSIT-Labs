@@ -1,0 +1,67 @@
+$date
+  Sun Mar 10 11:12:58 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! ep $end
+$var reg 1 " op $end
+$var reg 3 # s[2:0] $end
+$scope module parity_checker $end
+$var reg 3 $ s[2:0] $end
+$var reg 1 % ep $end
+$var reg 1 & op $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+0"
+b000 #
+b000 $
+1%
+0&
+#1000000
+0!
+1"
+b001 #
+b001 $
+0%
+1&
+#2000000
+b010 #
+b010 $
+#3000000
+1!
+0"
+b011 #
+b011 $
+1%
+0&
+#4000000
+0!
+1"
+b100 #
+b100 $
+0%
+1&
+#5000000
+1!
+0"
+b101 #
+b101 $
+1%
+0&
+#6000000
+b110 #
+b110 $
+#7000000
+0!
+1"
+b111 #
+b111 $
+0%
+1&
+#8000000
